@@ -1,0 +1,28 @@
+{
+  "name": "quranbot",
+  "version": "1.0.0",
+  "description": "Quran Bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoussamEddine/Quran_Twitter_Bot.git"
+  },
+  "keywords": [
+    "Quran",
+    "twitter",
+    "bot"
+  ],
+  "author": "chetouani Houssam-Eddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoussamEddine/Quran_Twitter_Bot/issues"
+  },
+  "homepage": "https://github.com/HoussamEddine/Quran_Twitter_Bot#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "twit": "^2.2.9"
+  }
+}
