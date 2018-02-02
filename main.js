@@ -18,9 +18,7 @@ function sendTweet() {
   var verseString = verse.verse + " \n " + verse.verseEn + " \n Name: " + verse.surahName + " \n Verse: " + verse.randomVerseNumber + " \n Index: " + verse.surahIndex + "\n Type: " + verse.surahType;
 
 
-  T.post('statuses/update', { status: verseString }, function (err, data, response) {
-
-  });
+  T.post('statuses/update', { status: verseString });
 }
 
 setInterval(sendTweet, 10000);
