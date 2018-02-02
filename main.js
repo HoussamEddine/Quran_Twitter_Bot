@@ -1,4 +1,3 @@
-import { setInterval } from 'timers';
 
 require('dotenv').config();
 var Twit = require("twit");
@@ -24,7 +23,7 @@ function sendTweet() {
   });
 };
 
-setInterval(sendTweet, 21600);
+setInterval(sendTweet, 2160000);
 
 
 
