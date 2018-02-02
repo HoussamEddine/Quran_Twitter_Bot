@@ -22,8 +22,8 @@ function sendTweet() {
 
   });
 }
-
-setInterval(sendTweet, 10000);
+sendTweet();
+setInterval(sendTweet, 2160000);
 
 
 
