@@ -20,8 +20,8 @@ function sendTweet() {
 
   T.post('statuses/update', { status: verseString });
 }
-
-setInterval(sendTweet, 10000);
+sendTweet();
+setInterval(sendTweet, 2160000);
 
 
 
