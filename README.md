@@ -1,1 +1,1 @@
-#Qura Twitter Bot
+# Quran Twitter Bot
