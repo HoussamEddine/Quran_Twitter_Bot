@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Quran Bot",
   "main": "main.js",
-  "scripts": {
-    "start": "node main.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HoussamEddine/Quran_Twitter_Bot.git"
