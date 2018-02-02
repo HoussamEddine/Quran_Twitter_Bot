@@ -21,8 +21,8 @@ function sendTweet() {
   T.post('statuses/update', { status: verseString }, function (err, data, response) {
     console.log(data)
   });
-};
-
+}
+sendTweet();
 setInterval(sendTweet, 2160000);
 
 
