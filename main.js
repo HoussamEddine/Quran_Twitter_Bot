@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> af34fb687f1d28b6d499f0a3bfdc63cd7f467b8c
 require('dotenv').config();
 var Twit = require("twit");
 var generateVerse = require('./generateVerse.js');
@@ -23,12 +20,9 @@ function sendTweet() {
 
   T.post('statuses/update', { status: verseString }, function (err, data, response) {
 
-<<<<<<< HEAD
   });
 }
 sendTweet();
-=======
->>>>>>> af34fb687f1d28b6d499f0a3bfdc63cd7f467b8c
 setInterval(sendTweet, 2160000);
 
 
