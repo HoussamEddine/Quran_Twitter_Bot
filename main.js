@@ -1,5 +1,3 @@
-import { setInterval } from 'timers';
-
 require('dotenv').config();
 var Twit = require("twit");
 var generateVerse = require('./generateVerse.js');
